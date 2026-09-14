@@ -1,0 +1,83 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #006400; /* Warna latar gelap */
+    color: #faf8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.Kartu-profil {
+    background-color: #1e293b;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #334155;
+}
+
+.kartu-profil {
+    background: -o-linear-gradient(135deg, #121212, #292937);
+    min-height: 400PX;
+    border-radius: 20PX;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid #00FF00;
+}
+
+.kartu-profil:hover {
+    transform: translateY(-8px);
+    border-color:#04f31c;
+    box-shadow: 0 15px 35px rgba(10, 10, 10, 0.5);
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #00FF00; /* Biru muda */
+    margin-bottom: 6px;
+    text-decoration: underline;
+}
+
+.tagline {
+    color: #f7f8fa;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #00FF00;
+    margin: 20px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.Kontak {
+    margin-top: 24px;
+    padding: 12px;
+    background: #fbfcfd;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #00060f;
+}
+
+.kartu-profil:hover { 
+      border-color: #7CFC00;  
+      transition: border-color 0.4s ease;
+}
